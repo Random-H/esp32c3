@@ -20,6 +20,7 @@
 #include "../components/lvgl/lvgl_driver/lv_port_disp.h"
 #include "../components/ui/ui.h"
 
+
 static esp_timer_handle_t lvgl_timer_handle = NULL;
 
 
