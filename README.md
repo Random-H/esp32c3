@@ -7,6 +7,7 @@ esp32_lvgl_st7789_cst816t
 #### 使用说明
 
 1.  屏幕连接
+
   IO2  --  LCD_CLK
   IO3  --  LCD_SDA
   IO10 --  LCD_RST
