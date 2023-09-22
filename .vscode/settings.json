@@ -1,0 +1,32 @@
+{
+    "idf.adapterTargetName": "esp32c3",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-ftdi.cfg"
+    ],
+    "idf.portWin": "COM4",
+    "files.associations": {
+        "lvgl.h": "c",
+        "cstddef": "c",
+        "string": "c",
+        "optional": "c",
+        "limits": "c",
+        "memory": "c",
+        "new": "c",
+        "type_traits": "c",
+        "atomic": "c",
+        "*.tcc": "c",
+        "cmath": "c",
+        "unordered_map": "c",
+        "string_view": "c",
+        "algorithm": "c",
+        "fstream": "c",
+        "istream": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "tuple": "c",
+        "gui_guider.h": "c",
+        "lv_demos.h": "c"
+    },
+    "idf.flashType": "UART"
+}

@@ -1,0 +1,47 @@
+-- Found Git: F:/ESPIDF_TOOL/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe
+-- Check for working CXX compiler: F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe - works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c3
+-- Project sdkconfig file C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: F:/ESPIDF_TOOL/python_env/idf5.1_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "main" version: 1
+-- Adding linker script C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script F:/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script F:/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script F:/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script F:/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script F:/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script F:/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script F:/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script F:/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl lwip main mbedtls mqtt newlib nvs_flash openthread partition_table protobuf-c protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb user_dev user_mid vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: F:/esp-idf/components/app_trace F:/esp-idf/components/app_update F:/esp-idf/components/bootloader F:/esp-idf/components/bootloader_support F:/esp-idf/components/bt F:/esp-idf/components/cmock F:/esp-idf/components/console F:/esp-idf/components/cxx F:/esp-idf/components/driver F:/esp-idf/components/efuse F:/esp-idf/components/esp-tls F:/esp-idf/components/esp_adc F:/esp-idf/components/esp_app_format F:/esp-idf/components/esp_coex F:/esp-idf/components/esp_common F:/esp-idf/components/esp_eth F:/esp-idf/components/esp_event F:/esp-idf/components/esp_gdbstub F:/esp-idf/components/esp_hid F:/esp-idf/components/esp_http_client F:/esp-idf/components/esp_http_server F:/esp-idf/components/esp_https_ota F:/esp-idf/components/esp_https_server F:/esp-idf/components/esp_hw_support F:/esp-idf/components/esp_lcd F:/esp-idf/components/esp_local_ctrl F:/esp-idf/components/esp_mm F:/esp-idf/components/esp_netif F:/esp-idf/components/esp_netif_stack F:/esp-idf/components/esp_partition F:/esp-idf/components/esp_phy F:/esp-idf/components/esp_pm F:/esp-idf/components/esp_psram F:/esp-idf/components/esp_ringbuf F:/esp-idf/components/esp_rom F:/esp-idf/components/esp_system F:/esp-idf/components/esp_timer F:/esp-idf/components/esp_wifi F:/esp-idf/components/espcoredump F:/esp-idf/components/esptool_py F:/esp-idf/components/fatfs F:/esp-idf/components/freertos F:/esp-idf/components/hal F:/esp-idf/components/heap F:/esp-idf/components/http_parser F:/esp-idf/components/idf_test F:/esp-idf/components/ieee802154 F:/esp-idf/components/json F:/esp-idf/components/log C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/components/lvgl F:/esp-idf/components/lwip C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/main F:/esp-idf/components/mbedtls F:/esp-idf/components/mqtt F:/esp-idf/components/newlib F:/esp-idf/components/nvs_flash F:/esp-idf/components/openthread F:/esp-idf/components/partition_table F:/esp-idf/components/protobuf-c F:/esp-idf/components/protocomm F:/esp-idf/components/pthread F:/esp-idf/components/riscv F:/esp-idf/components/sdmmc F:/esp-idf/components/soc F:/esp-idf/components/spi_flash F:/esp-idf/components/spiffs F:/esp-idf/components/tcp_transport F:/esp-idf/components/ulp F:/esp-idf/components/unity F:/esp-idf/components/usb C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/components/user_dev C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/components/user_mid F:/esp-idf/components/vfs F:/esp-idf/components/wear_levelling F:/esp-idf/components/wifi_provisioning F:/esp-idf/components/wpa_supplicant
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build
