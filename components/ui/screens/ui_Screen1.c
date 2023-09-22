@@ -21,75 +21,42 @@ lv_obj_clear_flag( ui_TabView1, LV_OBJ_FLAG_SCROLLABLE );    /// Flags
 
 ui_TabPage1 = lv_tabview_add_tab(ui_TabView1, "Title 1");
 
-ui_Button1 = lv_btn_create(ui_TabPage1);
-lv_obj_set_width( ui_Button1, 60);
-lv_obj_set_height( ui_Button1, 28);
-lv_obj_set_x( ui_Button1, 123 );
-lv_obj_set_y( ui_Button1, -22 );
-lv_obj_set_align( ui_Button1, LV_ALIGN_CENTER );
-lv_obj_add_flag( ui_Button1, LV_OBJ_FLAG_SCROLL_ON_FOCUS );   /// Flags
-lv_obj_clear_flag( ui_Button1, LV_OBJ_FLAG_SCROLLABLE );    /// Flags
 
-ui_Label1 = lv_label_create(ui_Button1);
-lv_obj_set_width( ui_Label1, LV_SIZE_CONTENT);  /// 1
-lv_obj_set_height( ui_Label1, LV_SIZE_CONTENT);   /// 1
-lv_obj_set_align( ui_Label1, LV_ALIGN_CENTER );
-lv_label_set_text(ui_Label1,"OK");
-
-ui_Keyboard2 = lv_keyboard_create(ui_TabPage1);
-lv_obj_set_width( ui_Keyboard2, 300);
-lv_obj_set_height( ui_Keyboard2, 120);
-lv_obj_set_x( ui_Keyboard2, 1 );
-lv_obj_set_y( ui_Keyboard2, 64 );
-lv_obj_set_align( ui_Keyboard2, LV_ALIGN_CENTER );
 
 ui_TextArea1 = lv_textarea_create(ui_TabPage1);
-lv_obj_set_width( ui_TextArea1, 221);
-lv_obj_set_height( ui_TextArea1, 35);
-lv_obj_set_x( ui_TextArea1, -30 );
-lv_obj_set_y( ui_TextArea1, -25 );
+lv_obj_set_width( ui_TextArea1, 257);
+lv_obj_set_height( ui_TextArea1, 69);
+lv_obj_set_x( ui_TextArea1, -13 );
+lv_obj_set_y( ui_TextArea1, -71 );
 lv_obj_set_align( ui_TextArea1, LV_ALIGN_CENTER );
-lv_textarea_set_placeholder_text(ui_TextArea1,"Placeholder...");
+lv_textarea_set_placeholder_text(ui_TextArea1,"input your command");
 
+ui_Keyboard2 = lv_keyboard_create(ui_TabPage1);
+lv_obj_set_width( ui_Keyboard2, 270);
+lv_obj_set_height( ui_Keyboard2, 120);
+lv_obj_set_x( ui_Keyboard2, -13 );
+lv_obj_set_y( ui_Keyboard2, 46 );
+lv_obj_set_align( ui_Keyboard2, LV_ALIGN_CENTER );
+lv_obj_add_flag( ui_Keyboard2, LV_OBJ_FLAG_HIDDEN );   /// Flags
+lv_keyboard_set_textarea(ui_Keyboard2, ui_TextArea1);   // 文本区与键盘关联
 
-
-ui_Checkbox2 = lv_checkbox_create(ui_TabPage1);
-lv_obj_set_width( ui_Checkbox2, LV_SIZE_CONTENT);  /// 1
-lv_obj_set_height( ui_Checkbox2, LV_SIZE_CONTENT);   /// 1
-lv_obj_set_x( ui_Checkbox2, -86 );
-lv_obj_set_y( ui_Checkbox2, -68 );
-lv_obj_set_align( ui_Checkbox2, LV_ALIGN_CENTER );
-lv_obj_add_flag( ui_Checkbox2, LV_OBJ_FLAG_SCROLL_ON_FOCUS );   /// Flags
-
-ui_Checkbox1 = lv_checkbox_create(ui_TabPage1);
-lv_obj_set_width( ui_Checkbox1, LV_SIZE_CONTENT);  /// 1
-lv_obj_set_height( ui_Checkbox1, LV_SIZE_CONTENT);   /// 1
-lv_obj_set_x( ui_Checkbox1, -87 );
-lv_obj_set_y( ui_Checkbox1, -97 );
-lv_obj_set_align( ui_Checkbox1, LV_ALIGN_CENTER );
-lv_obj_add_flag( ui_Checkbox1, LV_OBJ_FLAG_SCROLL_ON_FOCUS );   /// Flags
-
-ui_Switch1 = lv_switch_create(ui_TabPage1);
-lv_obj_set_width( ui_Switch1, 50);
-lv_obj_set_height( ui_Switch1, 25);
-lv_obj_set_x( ui_Switch1, 27 );
-lv_obj_set_y( ui_Switch1, -94 );
-lv_obj_set_align( ui_Switch1, LV_ALIGN_CENTER );
 
 
 ui_TabPage2 = lv_tabview_add_tab(ui_TabView1, "Title 2");
 
 ui_Calendar1 = lv_calendar_create(ui_TabPage2);
 lv_obj_t *ui_Calendar1_header = lv_calendar_header_arrow_create(ui_Calendar1);
-lv_obj_set_width( ui_Calendar1, lv_pct(100));
-lv_obj_set_height( ui_Calendar1, lv_pct(100));
+lv_obj_set_width( ui_Calendar1, lv_pct(91));
+lv_obj_set_height( ui_Calendar1, lv_pct(89));
+lv_obj_set_x( ui_Calendar1, -2 );
+lv_obj_set_y( ui_Calendar1, 35 );
 lv_obj_set_align( ui_Calendar1, LV_ALIGN_CENTER );
 
 ui_TabPage3 = lv_tabview_add_tab(ui_TabView1, "Title 3");
 
 ui_Chart1 = lv_chart_create(ui_TabPage3);
-lv_obj_set_width( ui_Chart1, lv_pct(88));
-lv_obj_set_height( ui_Chart1, lv_pct(82));
+lv_obj_set_width( ui_Chart1, lv_pct(73));
+lv_obj_set_height( ui_Chart1, lv_pct(75));
 lv_obj_set_align( ui_Chart1, LV_ALIGN_CENTER );
 lv_chart_set_type( ui_Chart1, LV_CHART_TYPE_LINE);
 lv_chart_set_axis_tick( ui_Chart1, LV_CHART_AXIS_PRIMARY_X, 10, 5, 5, 2, true, 50);
@@ -104,10 +71,11 @@ lv_chart_set_ext_y_array(ui_Chart1, ui_Chart1_series_1, ui_Chart1_series_1_array
 ui_TabPage4 = lv_tabview_add_tab(ui_TabView1, "Title 4");
 
 ui_Spinner1 = lv_spinner_create(ui_TabPage4,1000,90);
-lv_obj_set_width( ui_Spinner1, 80);
-lv_obj_set_height( ui_Spinner1, 80);
+lv_obj_set_width( ui_Spinner1, 116);
+lv_obj_set_height( ui_Spinner1, 119);
 lv_obj_set_align( ui_Spinner1, LV_ALIGN_CENTER );
 lv_obj_clear_flag( ui_Spinner1, LV_OBJ_FLAG_CLICKABLE );    /// Flags
 
+lv_obj_add_event_cb(ui_TextArea1, ui_event_TextArea1, LV_EVENT_ALL, NULL);
 
 }

@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "F:/esp-idf/components/bootloader/subproject"
-  "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader"
-  "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader-prefix"
-  "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader-prefix/tmp"
-  "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader-prefix/src"
-  "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader"
+  "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader-prefix"
+  "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader-prefix/tmp"
+  "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader-prefix/src"
+  "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

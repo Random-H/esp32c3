@@ -20,9 +20,7 @@
 #include "../components/lvgl/lvgl_driver/lv_port_disp.h"
 #include "../components/ui/ui.h"
 
-
 static esp_timer_handle_t lvgl_timer_handle = NULL;
-
 
 static IRAM_ATTR void lv_timer_cb(void *arg)
 {
@@ -33,7 +31,8 @@ static esp_timer_create_args_t lvgl_timer = {
     .callback = &lv_timer_cb,
     .arg = NULL,
     .name = "lvgl_timer",
-    .dispatch_method = ESP_TIMER_TASK};
+    .dispatch_method = ESP_TIMER_TASK
+};
 
 esp_err_t _lv_timer_create(void)
 {
@@ -48,7 +47,6 @@ esp_err_t _lv_timer_create(void)
 
 void app_main(void)
 {
-
    lv_init();
    lv_port_disp_init();
    _lv_timer_create();
@@ -56,9 +54,7 @@ void app_main(void)
    ui_init();
    while (true)
    {
-      //printf("dss:%d",cst816t_read_len(0x15,0,1));
       vTaskDelay(10 / portTICK_PERIOD_MS);
       lv_task_handler();
    }
 }
-

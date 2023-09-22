@@ -1,7 +1,0 @@
-CMake Warning at F:/esp-idf/tools/cmake/component.cmake:293 (message):
-  No source files found for SRC_DIRS entry './'.
-Call Stack (most recent call first):
-  F:/esp-idf/tools/cmake/component.cmake:443 (__component_add_sources)
-  components/user_dev/CMakeLists.txt:1 (idf_component_register)
-
-

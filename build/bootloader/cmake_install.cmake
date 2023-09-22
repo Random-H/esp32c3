@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/HMD/Desktop/ESP32C3/esp32_lvgl_st7789_cstxxxx-master/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

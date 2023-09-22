@@ -31,7 +31,7 @@ set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
-set(CMAKE_CXX_ABI_COMPILED FALSE)
+set(CMAKE_CXX_ABI_COMPILED TRUE)
 
 set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")
 
@@ -51,9 +51,9 @@ set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
 # Save compiler ABI information.
-set(CMAKE_CXX_SIZEOF_DATA_PTR "")
-set(CMAKE_CXX_COMPILER_ABI "")
-set(CMAKE_CXX_BYTE_ORDER "")
+set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
+set(CMAKE_CXX_COMPILER_ABI "ELF")
+set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")
 set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
 
 if(CMAKE_CXX_SIZEOF_DATA_PTR)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0/backward;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include-fixed;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/sys-include;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc;c;nosys;c;gcc;gcc;c;nosys")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc;F:/ESPIDF_TOOL/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

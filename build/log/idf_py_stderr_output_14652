@@ -1,4 +1,0 @@
-CMake Error at F:/esp-idf/CMakeLists.txt:234 (message):
-  Failed to determine sizeof(time_t)
-
-
