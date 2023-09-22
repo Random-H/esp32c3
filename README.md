@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# esp32_lvgl_st7789_cstxxxx
-
 1.  屏幕连接
 
   IO2  --  LCD_CLK
