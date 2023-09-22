@@ -1,11 +1,6 @@
 <<<<<<< HEAD
 # esp32_lvgl_st7789_cstxxxx
 
-#### 介绍
-esp32_lvgl_st7789_cst816t
-
-#### 使用说明
-
 1.  屏幕连接
 
   IO2  --  LCD_CLK
