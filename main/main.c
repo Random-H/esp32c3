@@ -53,10 +53,7 @@ void app_main(void)
    lv_port_disp_init();
    _lv_timer_create();
    touch_iic_init();
-
    ui_init();
-
-
    while (true)
    {
       //printf("dss:%d",cst816t_read_len(0x15,0,1));
