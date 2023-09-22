@@ -1,4 +1,5 @@
-1.  屏幕连接
+屏幕连接
+   
 IO2  --  LCD_CLK
 
 IO3  --  LCD_SDA
