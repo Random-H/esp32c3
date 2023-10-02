@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/newlib/port/cmake_install.cmake")
+  include("C:/Users/HMD/Desktop/esp32c3/build/esp-idf/newlib/port/cmake_install.cmake")
 endif()
 

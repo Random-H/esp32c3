@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui
+# Install script for directory: C:/Users/HMD/Desktop/esp32c3/components/ui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,17 +1,17 @@
 {
     "version":            "1",
     "project_name":       "main",
-    "project_version":    "b121296-dirty",
-    "project_path":       "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl",
+    "project_version":    "0e4928d-dirty",
+    "project_path":       "C:/Users/HMD/Desktop/esp32c3",
     "idf_path":           "F:/esp-idf",
-    "build_dir":          "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build",
-    "config_file":        "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/sdkconfig",
+    "build_dir":          "C:/Users/HMD/Desktop/esp32c3/build",
+    "config_file":        "C:/Users/HMD/Desktop/esp32c3/sdkconfig",
     "config_defaults":    "",
-    "bootloader_elf":     "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/bootloader/bootloader.elf",
+    "bootloader_elf":     "C:/Users/HMD/Desktop/esp32c3/build/bootloader/bootloader.elf",
     "app_elf":            "main.elf",
     "app_bin":            "main.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v5.1.1",
+    "git_revision":       "v5.1.1-dirty",
     "target":             "esp32c3",
     "rev":                "",
     "min_rev":            "3",
@@ -26,7 +26,7 @@
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "riscv" ],
     "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lvgl", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "openthread", "partition_table", "protobuf-c", "protocomm", "pthread", "riscv", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "ui", "ulp", "unity", "usb", "user_dev", "user_mid", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "" ],
-    "build_component_paths" : [ "F:/esp-idf/components/app_trace", "F:/esp-idf/components/app_update", "F:/esp-idf/components/bootloader", "F:/esp-idf/components/bootloader_support", "F:/esp-idf/components/bt", "F:/esp-idf/components/cmock", "F:/esp-idf/components/console", "F:/esp-idf/components/cxx", "F:/esp-idf/components/driver", "F:/esp-idf/components/efuse", "F:/esp-idf/components/esp-tls", "F:/esp-idf/components/esp_adc", "F:/esp-idf/components/esp_app_format", "F:/esp-idf/components/esp_coex", "F:/esp-idf/components/esp_common", "F:/esp-idf/components/esp_eth", "F:/esp-idf/components/esp_event", "F:/esp-idf/components/esp_gdbstub", "F:/esp-idf/components/esp_hid", "F:/esp-idf/components/esp_http_client", "F:/esp-idf/components/esp_http_server", "F:/esp-idf/components/esp_https_ota", "F:/esp-idf/components/esp_https_server", "F:/esp-idf/components/esp_hw_support", "F:/esp-idf/components/esp_lcd", "F:/esp-idf/components/esp_local_ctrl", "F:/esp-idf/components/esp_mm", "F:/esp-idf/components/esp_netif", "F:/esp-idf/components/esp_netif_stack", "F:/esp-idf/components/esp_partition", "F:/esp-idf/components/esp_phy", "F:/esp-idf/components/esp_pm", "F:/esp-idf/components/esp_psram", "F:/esp-idf/components/esp_ringbuf", "F:/esp-idf/components/esp_rom", "F:/esp-idf/components/esp_system", "F:/esp-idf/components/esp_timer", "F:/esp-idf/components/esp_wifi", "F:/esp-idf/components/espcoredump", "F:/esp-idf/components/esptool_py", "F:/esp-idf/components/fatfs", "F:/esp-idf/components/freertos", "F:/esp-idf/components/hal", "F:/esp-idf/components/heap", "F:/esp-idf/components/http_parser", "F:/esp-idf/components/idf_test", "F:/esp-idf/components/ieee802154", "F:/esp-idf/components/json", "F:/esp-idf/components/log", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl", "F:/esp-idf/components/lwip", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/main", "F:/esp-idf/components/mbedtls", "F:/esp-idf/components/mqtt", "F:/esp-idf/components/newlib", "F:/esp-idf/components/nvs_flash", "F:/esp-idf/components/openthread", "F:/esp-idf/components/partition_table", "F:/esp-idf/components/protobuf-c", "F:/esp-idf/components/protocomm", "F:/esp-idf/components/pthread", "F:/esp-idf/components/riscv", "F:/esp-idf/components/sdmmc", "F:/esp-idf/components/soc", "F:/esp-idf/components/spi_flash", "F:/esp-idf/components/spiffs", "F:/esp-idf/components/tcp_transport", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui", "F:/esp-idf/components/ulp", "F:/esp-idf/components/unity", "F:/esp-idf/components/usb", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/user_dev", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/user_mid", "F:/esp-idf/components/vfs", "F:/esp-idf/components/wear_levelling", "F:/esp-idf/components/wifi_provisioning", "F:/esp-idf/components/wpa_supplicant", "" ],
+    "build_component_paths" : [ "F:/esp-idf/components/app_trace", "F:/esp-idf/components/app_update", "F:/esp-idf/components/bootloader", "F:/esp-idf/components/bootloader_support", "F:/esp-idf/components/bt", "F:/esp-idf/components/cmock", "F:/esp-idf/components/console", "F:/esp-idf/components/cxx", "F:/esp-idf/components/driver", "F:/esp-idf/components/efuse", "F:/esp-idf/components/esp-tls", "F:/esp-idf/components/esp_adc", "F:/esp-idf/components/esp_app_format", "F:/esp-idf/components/esp_coex", "F:/esp-idf/components/esp_common", "F:/esp-idf/components/esp_eth", "F:/esp-idf/components/esp_event", "F:/esp-idf/components/esp_gdbstub", "F:/esp-idf/components/esp_hid", "F:/esp-idf/components/esp_http_client", "F:/esp-idf/components/esp_http_server", "F:/esp-idf/components/esp_https_ota", "F:/esp-idf/components/esp_https_server", "F:/esp-idf/components/esp_hw_support", "F:/esp-idf/components/esp_lcd", "F:/esp-idf/components/esp_local_ctrl", "F:/esp-idf/components/esp_mm", "F:/esp-idf/components/esp_netif", "F:/esp-idf/components/esp_netif_stack", "F:/esp-idf/components/esp_partition", "F:/esp-idf/components/esp_phy", "F:/esp-idf/components/esp_pm", "F:/esp-idf/components/esp_psram", "F:/esp-idf/components/esp_ringbuf", "F:/esp-idf/components/esp_rom", "F:/esp-idf/components/esp_system", "F:/esp-idf/components/esp_timer", "F:/esp-idf/components/esp_wifi", "F:/esp-idf/components/espcoredump", "F:/esp-idf/components/esptool_py", "F:/esp-idf/components/fatfs", "F:/esp-idf/components/freertos", "F:/esp-idf/components/hal", "F:/esp-idf/components/heap", "F:/esp-idf/components/http_parser", "F:/esp-idf/components/idf_test", "F:/esp-idf/components/ieee802154", "F:/esp-idf/components/json", "F:/esp-idf/components/log", "C:/Users/HMD/Desktop/esp32c3/components/lvgl", "F:/esp-idf/components/lwip", "C:/Users/HMD/Desktop/esp32c3/main", "F:/esp-idf/components/mbedtls", "F:/esp-idf/components/mqtt", "F:/esp-idf/components/newlib", "F:/esp-idf/components/nvs_flash", "F:/esp-idf/components/openthread", "F:/esp-idf/components/partition_table", "F:/esp-idf/components/protobuf-c", "F:/esp-idf/components/protocomm", "F:/esp-idf/components/pthread", "F:/esp-idf/components/riscv", "F:/esp-idf/components/sdmmc", "F:/esp-idf/components/soc", "F:/esp-idf/components/spi_flash", "F:/esp-idf/components/spiffs", "F:/esp-idf/components/tcp_transport", "C:/Users/HMD/Desktop/esp32c3/components/ui", "F:/esp-idf/components/ulp", "F:/esp-idf/components/unity", "F:/esp-idf/components/usb", "C:/Users/HMD/Desktop/esp32c3/components/user_dev", "C:/Users/HMD/Desktop/esp32c3/components/user_mid", "F:/esp-idf/components/vfs", "F:/esp-idf/components/wear_levelling", "F:/esp-idf/components/wifi_provisioning", "F:/esp-idf/components/wpa_supplicant", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -39,7 +39,7 @@
             "priv_reqs": [ "soc", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/app_trace/libapp_trace.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/app_trace/libapp_trace.a",
             "sources": [ "F:/esp-idf/components/app_trace/app_trace.c", "F:/esp-idf/components/app_trace/app_trace_util.c", "F:/esp-idf/components/app_trace/host_file_io.c", "F:/esp-idf/components/app_trace/port/port_uart.c" ],
             "include_dirs": [ "include" ]
         },
@@ -54,7 +54,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/app_update/libapp_update.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "F:/esp-idf/components/app_update/esp_ota_ops.c", "F:/esp-idf/components/app_update/esp_ota_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -84,7 +84,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "F:/esp-idf/components/bootloader_support/src/bootloader_common.c", "F:/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "F:/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "F:/esp-idf/components/bootloader_support/src/bootloader_mem.c", "F:/esp-idf/components/bootloader_support/src/bootloader_random.c", "F:/esp-idf/components/bootloader_support/src/bootloader_random_esp32c3.c", "F:/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "F:/esp-idf/components/bootloader_support/src/flash_encrypt.c", "F:/esp-idf/components/bootloader_support/src/secure_boot.c", "F:/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "F:/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "F:/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32c3.c", "F:/esp-idf/components/bootloader_support/src/bootloader_utility.c", "F:/esp-idf/components/bootloader_support/src/flash_partitions.c", "F:/esp-idf/components/bootloader_support/src/esp_image_format.c", "F:/esp-idf/components/bootloader_support/src/idf/bootloader_sha.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -114,7 +114,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/cmock/libcmock.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/cmock/libcmock.a",
             "sources": [ "F:/esp-idf/components/cmock/CMock/src/cmock.c" ],
             "include_dirs": [ "CMock/src" ]
         },
@@ -129,7 +129,7 @@
             "priv_reqs": [ "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/console/libconsole.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/console/libconsole.a",
             "sources": [ "F:/esp-idf/components/console/commands.c", "F:/esp-idf/components/console/esp_console_repl.c", "F:/esp-idf/components/console/split_argv.c", "F:/esp-idf/components/console/linenoise/linenoise.c", "F:/esp-idf/components/console/argtable3/arg_cmd.c", "F:/esp-idf/components/console/argtable3/arg_date.c", "F:/esp-idf/components/console/argtable3/arg_dbl.c", "F:/esp-idf/components/console/argtable3/arg_dstr.c", "F:/esp-idf/components/console/argtable3/arg_end.c", "F:/esp-idf/components/console/argtable3/arg_file.c", "F:/esp-idf/components/console/argtable3/arg_hashtable.c", "F:/esp-idf/components/console/argtable3/arg_int.c", "F:/esp-idf/components/console/argtable3/arg_lit.c", "F:/esp-idf/components/console/argtable3/arg_rem.c", "F:/esp-idf/components/console/argtable3/arg_rex.c", "F:/esp-idf/components/console/argtable3/arg_str.c", "F:/esp-idf/components/console/argtable3/arg_utils.c", "F:/esp-idf/components/console/argtable3/argtable3.c" ],
             "include_dirs": [ "." ]
         },
@@ -144,7 +144,7 @@
             "priv_reqs": [ "pthread" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/cxx/libcxx.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/cxx/libcxx.a",
             "sources": [ "F:/esp-idf/components/cxx/cxx_exception_stubs.cpp", "F:/esp-idf/components/cxx/cxx_guards.cpp" ],
             "include_dirs": []
         },
@@ -159,7 +159,7 @@
             "priv_reqs": [ "efuse", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/driver/libdriver.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/driver/libdriver.a",
             "sources": [ "F:/esp-idf/components/driver/gpio/gpio.c", "F:/esp-idf/components/driver/gpio/gpio_glitch_filter_ops.c", "F:/esp-idf/components/driver/gpio/rtc_io.c", "F:/esp-idf/components/driver/spi/spi_bus_lock.c", "F:/esp-idf/components/driver/deprecated/adc_legacy.c", "F:/esp-idf/components/driver/deprecated/adc_dma_legacy.c", "F:/esp-idf/components/driver/gpio/dedic_gpio.c", "F:/esp-idf/components/driver/gpio/gpio_pin_glitch_filter.c", "F:/esp-idf/components/driver/gptimer/gptimer.c", "F:/esp-idf/components/driver/gptimer/gptimer_priv.c", "F:/esp-idf/components/driver/deprecated/timer_legacy.c", "F:/esp-idf/components/driver/i2c/i2c.c", "F:/esp-idf/components/driver/i2s/i2s_common.c", "F:/esp-idf/components/driver/i2s/i2s_std.c", "F:/esp-idf/components/driver/deprecated/i2s_legacy.c", "F:/esp-idf/components/driver/i2s/i2s_pdm.c", "F:/esp-idf/components/driver/i2s/i2s_tdm.c", "F:/esp-idf/components/driver/ledc/ledc.c", "F:/esp-idf/components/driver/rmt/rmt_common.c", "F:/esp-idf/components/driver/rmt/rmt_encoder.c", "F:/esp-idf/components/driver/rmt/rmt_rx.c", "F:/esp-idf/components/driver/rmt/rmt_tx.c", "F:/esp-idf/components/driver/deprecated/rmt_legacy.c", "F:/esp-idf/components/driver/sigma_delta/sdm.c", "F:/esp-idf/components/driver/deprecated/sigma_delta_legacy.c", "F:/esp-idf/components/driver/spi/gpspi/spi_common.c", "F:/esp-idf/components/driver/spi/gpspi/spi_master.c", "F:/esp-idf/components/driver/spi/gpspi/spi_slave.c", "F:/esp-idf/components/driver/spi/sdspi/sdspi_crc.c", "F:/esp-idf/components/driver/spi/sdspi/sdspi_host.c", "F:/esp-idf/components/driver/spi/sdspi/sdspi_transaction.c", "F:/esp-idf/components/driver/spi/gpspi/spi_slave_hd.c", "F:/esp-idf/components/driver/temperature_sensor/temperature_sensor.c", "F:/esp-idf/components/driver/deprecated/rtc_temperature_legacy.c", "F:/esp-idf/components/driver/twai/twai.c", "F:/esp-idf/components/driver/uart/uart.c", "F:/esp-idf/components/driver/usb_serial_jtag/usb_serial_jtag.c", "F:/esp-idf/components/driver/usb_serial_jtag/usb_serial_jtag_connection_monitor.c" ],
             "include_dirs": [ "include", "deprecated", "analog_comparator/include", "dac/include", "gpio/include", "gptimer/include", "i2c/include", "i2s/include", "ledc/include", "mcpwm/include", "parlio/include", "pcnt/include", "rmt/include", "sdio_slave/include", "sdmmc/include", "sigma_delta/include", "spi/include", "temperature_sensor/include", "touch_sensor/include", "twai/include", "uart/include", "usb_serial_jtag/include" ]
         },
@@ -174,7 +174,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/efuse/libefuse.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/efuse/libefuse.a",
             "sources": [ "F:/esp-idf/components/efuse/esp32c3/esp_efuse_table.c", "F:/esp-idf/components/efuse/esp32c3/esp_efuse_fields.c", "F:/esp-idf/components/efuse/esp32c3/esp_efuse_rtc_calib.c", "F:/esp-idf/components/efuse/esp32c3/esp_efuse_utility.c", "F:/esp-idf/components/efuse/src/esp_efuse_api.c", "F:/esp-idf/components/efuse/src/esp_efuse_fields.c", "F:/esp-idf/components/efuse/src/esp_efuse_utility.c", "F:/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c" ],
             "include_dirs": [ "include", "esp32c3/include" ]
         },
@@ -189,7 +189,7 @@
             "priv_reqs": [ "http_parser", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp-tls/libesp-tls.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp-tls/libesp-tls.a",
             "sources": [ "F:/esp-idf/components/esp-tls/esp_tls.c", "F:/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c", "F:/esp-idf/components/esp-tls/esp_tls_error_capture.c", "F:/esp-idf/components/esp-tls/esp_tls_mbedtls.c" ],
             "include_dirs": [ ".", "esp-tls-crypto" ]
         },
@@ -204,7 +204,7 @@
             "priv_reqs": [ "driver", "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_adc/libesp_adc.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_adc/libesp_adc.a",
             "sources": [ "F:/esp-idf/components/esp_adc/adc_cali.c", "F:/esp-idf/components/esp_adc/adc_cali_curve_fitting.c", "F:/esp-idf/components/esp_adc/adc_oneshot.c", "F:/esp-idf/components/esp_adc/adc_common.c", "F:/esp-idf/components/esp_adc/deprecated/esp_adc_cal_common_legacy.c", "F:/esp-idf/components/esp_adc/adc_continuous.c", "F:/esp-idf/components/esp_adc/adc_filter.c", "F:/esp-idf/components/esp_adc/esp32c3/curve_fitting_coefficients.c", "F:/esp-idf/components/esp_adc/deprecated/esp32c3/esp_adc_cal_legacy.c" ],
             "include_dirs": [ "include", "interface", "esp32c3/include", "deprecated/include" ]
         },
@@ -219,7 +219,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "F:/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -234,7 +234,7 @@
             "priv_reqs": [ "esp_timer", "driver", "esp_event" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_coex/libesp_coex.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_coex/libesp_coex.a",
             "sources": [ "F:/esp-idf/components/esp_coex/esp32c3/esp_coex_adapter.c" ],
             "include_dirs": [ "include" ]
         },
@@ -249,7 +249,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_common/libesp_common.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "F:/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -264,7 +264,7 @@
             "priv_reqs": [ "driver", "log", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_eth/libesp_eth.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_eth/libesp_eth.a",
             "sources": [ "F:/esp-idf/components/esp_eth/src/esp_eth.c", "F:/esp-idf/components/esp_eth/src/esp_eth_phy_802_3.c", "F:/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c" ],
             "include_dirs": [ "include" ]
         },
@@ -279,7 +279,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_event/libesp_event.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "F:/esp-idf/components/esp_event/default_event_loop.c", "F:/esp-idf/components/esp_event/esp_event.c", "F:/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,7 +294,7 @@
             "priv_reqs": [ "soc", "esp_rom", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
             "sources": [ "F:/esp-idf/components/esp_gdbstub/src/gdbstub.c", "F:/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c", "F:/esp-idf/components/esp_gdbstub/src/packet.c", "F:/esp-idf/components/esp_gdbstub/src/port/riscv/gdbstub_riscv.c" ],
             "include_dirs": [ "include" ]
         },
@@ -309,7 +309,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_hid/libesp_hid.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_hid/libesp_hid.a",
             "sources": [ "F:/esp-idf/components/esp_hid/src/esp_hidd.c", "F:/esp-idf/components/esp_hid/src/esp_hidh.c", "F:/esp-idf/components/esp_hid/src/esp_hid_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,7 +324,7 @@
             "priv_reqs": [ "tcp_transport", "http_parser" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_http_client/libesp_http_client.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_http_client/libesp_http_client.a",
             "sources": [ "F:/esp-idf/components/esp_http_client/esp_http_client.c", "F:/esp-idf/components/esp_http_client/lib/http_auth.c", "F:/esp-idf/components/esp_http_client/lib/http_header.c", "F:/esp-idf/components/esp_http_client/lib/http_utils.c" ],
             "include_dirs": [ "include" ]
         },
@@ -339,7 +339,7 @@
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_http_server/libesp_http_server.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_http_server/libesp_http_server.a",
             "sources": [ "F:/esp-idf/components/esp_http_server/src/httpd_main.c", "F:/esp-idf/components/esp_http_server/src/httpd_parse.c", "F:/esp-idf/components/esp_http_server/src/httpd_sess.c", "F:/esp-idf/components/esp_http_server/src/httpd_txrx.c", "F:/esp-idf/components/esp_http_server/src/httpd_uri.c", "F:/esp-idf/components/esp_http_server/src/httpd_ws.c", "F:/esp-idf/components/esp_http_server/src/util/ctrl_sock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -354,7 +354,7 @@
             "priv_reqs": [ "log", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_https_ota/libesp_https_ota.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_https_ota/libesp_https_ota.a",
             "sources": [ "F:/esp-idf/components/esp_https_ota/src/esp_https_ota.c" ],
             "include_dirs": [ "include" ]
         },
@@ -384,7 +384,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "driver", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "F:/esp-idf/components/esp_hw_support/cpu.c", "F:/esp-idf/components/esp_hw_support/esp_memory_utils.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/cpu_region_protect.c", "F:/esp-idf/components/esp_hw_support/esp_clk.c", "F:/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "F:/esp-idf/components/esp_hw_support/hw_random.c", "F:/esp-idf/components/esp_hw_support/intr_alloc.c", "F:/esp-idf/components/esp_hw_support/mac_addr.c", "F:/esp-idf/components/esp_hw_support/periph_ctrl.c", "F:/esp-idf/components/esp_hw_support/rtc_module.c", "F:/esp-idf/components/esp_hw_support/sleep_modes.c", "F:/esp-idf/components/esp_hw_support/sleep_gpio.c", "F:/esp-idf/components/esp_hw_support/sleep_modem.c", "F:/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "F:/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "F:/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/io_mux.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/esp_clk_tree.c", "F:/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "F:/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "F:/esp-idf/components/esp_hw_support/sleep_cpu.c", "F:/esp-idf/components/esp_hw_support/dma/gdma.c", "F:/esp-idf/components/esp_hw_support/dma/async_memcpy_impl_gdma.c", "F:/esp-idf/components/esp_hw_support/dma/esp_async_memcpy.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/systimer.c", "F:/esp-idf/components/esp_hw_support/esp_hmac.c", "F:/esp-idf/components/esp_hw_support/esp_ds.c", "F:/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/rtc_clk_init.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/rtc_clk.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/rtc_init.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/rtc_sleep.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/rtc_time.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/chip_info.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/esp_crypto_lock.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/sar_periph_ctrl.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/adc2_init_cal.c", "F:/esp-idf/components/esp_hw_support/port/esp32c3/esp_memprot.c", "F:/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c" ],
             "include_dirs": [ "include", "include/soc", "include/soc/esp32c3" ]
         },
@@ -399,7 +399,7 @@
             "priv_reqs": [ "driver", "esp_mm", "esp_psram" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_lcd/libesp_lcd.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_lcd/libesp_lcd.a",
             "sources": [ "F:/esp-idf/components/esp_lcd/src/esp_lcd_common.c", "F:/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c", "F:/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_i2c.c", "F:/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_spi.c", "F:/esp-idf/components/esp_lcd/src/esp_lcd_panel_nt35510.c", "F:/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c", "F:/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c", "F:/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c" ],
             "include_dirs": [ "include", "interface" ]
         },
@@ -414,7 +414,7 @@
             "priv_reqs": [ "protobuf-c" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
             "sources": [ "F:/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.c", "F:/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_handler.c", "F:/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c", "F:/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_transport_httpd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -429,7 +429,7 @@
             "priv_reqs": [ "heap", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "F:/esp-idf/components/esp_mm/esp_mmu_map.c", "F:/esp-idf/components/esp_mm/port/esp32c3/ext_mem_layout.c", "F:/esp-idf/components/esp_mm/esp_cache.c" ],
             "include_dirs": [ "include" ]
         },
@@ -444,7 +444,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "F:/esp-idf/components/esp_netif/esp_netif_handlers.c", "F:/esp-idf/components/esp_netif/esp_netif_objects.c", "F:/esp-idf/components/esp_netif/esp_netif_defaults.c", "F:/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "F:/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "F:/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "F:/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "F:/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "F:/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -474,7 +474,7 @@
             "priv_reqs": [ "esp_system", "bootloader_support", "spi_flash", "app_update", "partition_table" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "F:/esp-idf/components/esp_partition/partition.c", "F:/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -489,7 +489,7 @@
             "priv_reqs": [ "nvs_flash", "driver", "efuse", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_phy/libesp_phy.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_phy/libesp_phy.a",
             "sources": [ "F:/esp-idf/components/esp_phy/src/phy_override.c", "F:/esp-idf/components/esp_phy/src/lib_printf.c", "F:/esp-idf/components/esp_phy/src/phy_common.c", "F:/esp-idf/components/esp_phy/src/phy_init.c", "F:/esp-idf/components/esp_phy/src/btbb_init.c" ],
             "include_dirs": [ "include", "esp32c3/include" ]
         },
@@ -504,7 +504,7 @@
             "priv_reqs": [ "esp_system", "driver", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "F:/esp-idf/components/esp_pm/pm_locks.c", "F:/esp-idf/components/esp_pm/pm_trace.c", "F:/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -534,7 +534,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "F:/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -549,7 +549,7 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "F:/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "F:/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "F:/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "F:/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "F:/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "F:/esp-idf/components/esp_rom/patches/esp_rom_systimer.c" ],
             "include_dirs": [ "include", "include/esp32c3", "esp32c3" ]
         },
@@ -564,7 +564,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "pthread", "bootloader_support", "efuse", "driver", "esp_partition" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_system/libesp_system.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "F:/esp-idf/components/esp_system/esp_err.c", "F:/esp-idf/components/esp_system/crosscore_int.c", "F:/esp-idf/components/esp_system/esp_ipc.c", "F:/esp-idf/components/esp_system/freertos_hooks.c", "F:/esp-idf/components/esp_system/int_wdt.c", "F:/esp-idf/components/esp_system/panic.c", "F:/esp-idf/components/esp_system/esp_system.c", "F:/esp-idf/components/esp_system/startup.c", "F:/esp-idf/components/esp_system/system_time.c", "F:/esp-idf/components/esp_system/stack_check.c", "F:/esp-idf/components/esp_system/ubsan.c", "F:/esp-idf/components/esp_system/xt_wdt.c", "F:/esp-idf/components/esp_system/debug_stubs.c", "F:/esp-idf/components/esp_system/task_wdt/task_wdt.c", "F:/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "F:/esp-idf/components/esp_system/port/cpu_start.c", "F:/esp-idf/components/esp_system/port/panic_handler.c", "F:/esp-idf/components/esp_system/port/esp_system_chip.c", "F:/esp-idf/components/esp_system/port/brownout.c", "F:/esp-idf/components/esp_system/port/soc/esp32c3/clk.c", "F:/esp-idf/components/esp_system/port/soc/esp32c3/reset_reason.c", "F:/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c", "F:/esp-idf/components/esp_system/port/soc/esp32c3/cache_err_int.c", "F:/esp-idf/components/esp_system/port/soc/esp32c3/apb_backup_dma.c", "F:/esp-idf/components/esp_system/port/arch/riscv/expression_with_stack.c", "F:/esp-idf/components/esp_system/port/arch/riscv/expression_with_stack_asm.S", "F:/esp-idf/components/esp_system/port/arch/riscv/panic_arch.c", "F:/esp-idf/components/esp_system/port/arch/riscv/debug_stubs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -579,7 +579,7 @@
             "priv_reqs": [ "soc", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "F:/esp-idf/components/esp_timer/src/esp_timer.c", "F:/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "F:/esp-idf/components/esp_timer/src/system_time.c", "F:/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -594,7 +594,7 @@
             "priv_reqs": [ "driver", "esptool_py", "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/esp_wifi/libesp_wifi.a",
             "sources": [ "F:/esp-idf/components/esp_wifi/src/mesh_event.c", "F:/esp-idf/components/esp_wifi/src/smartconfig.c", "F:/esp-idf/components/esp_wifi/src/wifi_init.c", "F:/esp-idf/components/esp_wifi/src/wifi_default.c", "F:/esp-idf/components/esp_wifi/src/wifi_netif.c", "F:/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "F:/esp-idf/components/esp_wifi/esp32c3/esp_adapter.c", "F:/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "wifi_apps/include" ]
         },
@@ -609,7 +609,7 @@
             "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/espcoredump/libespcoredump.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/espcoredump/libespcoredump.a",
             "sources": [ "F:/esp-idf/components/espcoredump/src/core_dump_common.c", "F:/esp-idf/components/espcoredump/src/core_dump_checksum.c", "F:/esp-idf/components/espcoredump/src/core_dump_flash.c", "F:/esp-idf/components/espcoredump/src/core_dump_uart.c", "F:/esp-idf/components/espcoredump/src/core_dump_elf.c", "F:/esp-idf/components/espcoredump/src/core_dump_binary.c", "F:/esp-idf/components/espcoredump/src/port/riscv/core_dump_port.c" ],
             "include_dirs": [ "include", "include/port/riscv" ]
         },
@@ -639,7 +639,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/fatfs/libfatfs.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/fatfs/libfatfs.a",
             "sources": [ "F:/esp-idf/components/fatfs/diskio/diskio.c", "F:/esp-idf/components/fatfs/diskio/diskio_rawflash.c", "F:/esp-idf/components/fatfs/diskio/diskio_sdmmc.c", "F:/esp-idf/components/fatfs/diskio/diskio_wl.c", "F:/esp-idf/components/fatfs/src/ff.c", "F:/esp-idf/components/fatfs/port/freertos/ffsystem.c", "F:/esp-idf/components/fatfs/src/ffunicode.c", "F:/esp-idf/components/fatfs/vfs/vfs_fat.c", "F:/esp-idf/components/fatfs/vfs/vfs_fat_sdmmc.c", "F:/esp-idf/components/fatfs/vfs/vfs_fat_spiflash.c" ],
             "include_dirs": [ "diskio", "vfs", "src" ]
         },
@@ -654,7 +654,7 @@
             "priv_reqs": [ "soc", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/freertos/libfreertos.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "F:/esp-idf/components/freertos/heap_idf.c", "F:/esp-idf/components/freertos/esp_additions/idf_additions.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/croutine.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c", "F:/esp-idf/components/freertos/app_startup.c", "F:/esp-idf/components/freertos/FreeRTOS-openocd.c", "F:/esp-idf/components/freertos/port_common.c", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/portasm.S", "F:/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_systick.c", "F:/esp-idf/components/freertos/esp_additions/freertos_v8_compat.c" ],
             "include_dirs": [ "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/riscv/include", "esp_additions/include/freertos", "esp_additions/include", "esp_additions/arch/riscv/include" ]
         },
@@ -669,7 +669,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/hal/libhal.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/hal/libhal.a",
             "sources": [ "F:/esp-idf/components/hal/mpu_hal.c", "F:/esp-idf/components/hal/efuse_hal.c", "F:/esp-idf/components/hal/esp32c3/efuse_hal.c", "F:/esp-idf/components/hal/wdt_hal_iram.c", "F:/esp-idf/components/hal/mmu_hal.c", "F:/esp-idf/components/hal/cache_hal.c", "F:/esp-idf/components/hal/rtc_io_hal.c", "F:/esp-idf/components/hal/gpio_hal.c", "F:/esp-idf/components/hal/uart_hal.c", "F:/esp-idf/components/hal/uart_hal_iram.c", "F:/esp-idf/components/hal/adc_hal_common.c", "F:/esp-idf/components/hal/adc_oneshot_hal.c", "F:/esp-idf/components/hal/esp32c3/clk_tree_hal.c", "F:/esp-idf/components/hal/spi_flash_hal.c", "F:/esp-idf/components/hal/spi_flash_hal_iram.c", "F:/esp-idf/components/hal/spi_flash_encrypt_hal_iram.c", "F:/esp-idf/components/hal/systimer_hal.c", "F:/esp-idf/components/hal/timer_hal.c", "F:/esp-idf/components/hal/timer_hal_iram.c", "F:/esp-idf/components/hal/ledc_hal.c", "F:/esp-idf/components/hal/ledc_hal_iram.c", "F:/esp-idf/components/hal/i2c_hal.c", "F:/esp-idf/components/hal/i2c_hal_iram.c", "F:/esp-idf/components/hal/rmt_hal.c", "F:/esp-idf/components/hal/twai_hal.c", "F:/esp-idf/components/hal/twai_hal_iram.c", "F:/esp-idf/components/hal/gdma_hal.c", "F:/esp-idf/components/hal/i2s_hal.c", "F:/esp-idf/components/hal/sdm_hal.c", "F:/esp-idf/components/hal/adc_hal.c", "F:/esp-idf/components/hal/sha_hal.c", "F:/esp-idf/components/hal/aes_hal.c", "F:/esp-idf/components/hal/brownout_hal.c", "F:/esp-idf/components/hal/spi_hal.c", "F:/esp-idf/components/hal/spi_hal_iram.c", "F:/esp-idf/components/hal/spi_slave_hal.c", "F:/esp-idf/components/hal/spi_slave_hal_iram.c", "F:/esp-idf/components/hal/spi_slave_hd_hal.c", "F:/esp-idf/components/hal/hmac_hal.c", "F:/esp-idf/components/hal/ds_hal.c", "F:/esp-idf/components/hal/spi_flash_hal_gpspi.c", "F:/esp-idf/components/hal/xt_wdt_hal.c", "F:/esp-idf/components/hal/esp32c3/rtc_cntl_hal.c" ],
             "include_dirs": [ "esp32c3/include", "include", "platform_port/include" ]
         },
@@ -684,7 +684,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/heap/libheap.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/heap/libheap.a",
             "sources": [ "F:/esp-idf/components/heap/heap_caps.c", "F:/esp-idf/components/heap/heap_caps_init.c", "F:/esp-idf/components/heap/multi_heap.c", "F:/esp-idf/components/heap/tlsf/tlsf.c", "F:/esp-idf/components/heap/port/memory_layout_utils.c", "F:/esp-idf/components/heap/port/esp32c3/memory_layout.c" ],
             "include_dirs": [ "include" ]
         },
@@ -699,7 +699,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "F:/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -744,7 +744,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/json/libjson.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/json/libjson.a",
             "sources": [ "F:/esp-idf/components/json/cJSON/cJSON.c", "F:/esp-idf/components/json/cJSON/cJSON_Utils.c" ],
             "include_dirs": [ "cJSON" ]
         },
@@ -759,7 +759,7 @@
             "priv_reqs": [ "soc", "hal", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/log/liblog.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/log/liblog.a",
             "sources": [ "F:/esp-idf/components/log/log.c", "F:/esp-idf/components/log/log_buffers.c", "F:/esp-idf/components/log/log_freertos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -767,16 +767,16 @@
             "alias": "idf::lvgl",
             "target": "___idf_lvgl",
             "prefix": "idf",
-            "dir": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl",
+            "dir": "C:/Users/HMD/Desktop/esp32c3/components/lvgl",
             "type": "LIBRARY",
             "lib": "__idf_lvgl",
             "reqs": [],
             "priv_reqs": [ "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/lvgl/liblvgl.a",
-            "sources": [ "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_disp.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_event.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_group.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_indev.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_indev_scroll.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj_class.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj_draw.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj_pos.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj_scroll.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj_style.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj_style_gen.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_obj_tree.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_refr.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/core/lv_theme.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/arm2d/lv_gpu_arm2d.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_arc.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_img.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_label.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_layer.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_line.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_mask.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_rect.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_transform.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_draw_triangle.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_img_buf.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_img_cache.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/lv_img_decoder.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/lv_gpu_nxp.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_arc.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_bg.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_composite.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_img.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_label.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_layer.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_line.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_mask.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_rect.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sdl/lv_draw_sdl_utils.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_arc.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_blend.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_dither.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_gradient.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_img.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_layer.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_letter.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_line.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_polygon.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_rect.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/sw/lv_draw_sw_transform.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/layouts/flex/lv_flex.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/layouts/grid/lv_grid.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/bmp/lv_bmp.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/freetype/lv_freetype.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/gif/gifdec.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/gif/lv_gif.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/png/lodepng.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/png/lv_png.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/qrcode/lv_qrcode.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/qrcode/qrcodegen.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/rlottie/lv_rlottie.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/sjpg/lv_sjpg.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/libs/sjpg/tjpgd.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/lv_extra.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/fragment/lv_fragment.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/fragment/lv_fragment_manager.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/gridnav/lv_gridnav.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/ime/lv_ime_pinyin.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/imgfont/lv_imgfont.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/monkey/lv_monkey.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/msg/lv_msg.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/others/snapshot/lv_snapshot.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/themes/basic/lv_theme_basic.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/themes/default/lv_theme_default.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/themes/mono/lv_theme_mono.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/animimg/lv_animimg.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/calendar/lv_calendar.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/chart/lv_chart.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/keyboard/lv_keyboard.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/led/lv_led.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/list/lv_list.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/menu/lv_menu.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/meter/lv_meter.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/msgbox/lv_msgbox.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/span/lv_span.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/spinbox/lv_spinbox.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/spinner/lv_spinner.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/tabview/lv_tabview.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/tileview/lv_tileview.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/extra/widgets/win/lv_win.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_fmt_txt.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_loader.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_10.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_12.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_12_subpx.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_14.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_16.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_18.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_20.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_22.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_24.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_26.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_28.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_28_compressed.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_30.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_32.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_34.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_36.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_38.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_40.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_42.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_44.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_46.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_48.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_montserrat_8.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_simsun_16_cjk.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_unscii_16.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/font/lv_font_unscii_8.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/hal/lv_hal_disp.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/hal/lv_hal_indev.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/hal/lv_hal_tick.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_anim.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_anim_timeline.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_area.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_async.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_bidi.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_color.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_fs.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_gc.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_ll.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_log.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_lru.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_math.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_mem.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_printf.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_style.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_style_gen.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_templ.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_timer.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_tlsf.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_txt.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_txt_ap.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/misc/lv_utils.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_arc.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_bar.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_btn.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_btnmatrix.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_canvas.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_checkbox.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_dropdown.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_img.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_label.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_line.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_objx_templ.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_roller.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_slider.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_switch.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_table.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/src/widgets/lv_textarea.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/lvgl_driver/lv_port_disp.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/lvgl_driver/lv_port_fs_template.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/lvgl_driver/lv_port_indev.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_font/test_nihao.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut1.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut10.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut11.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut12.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut13.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut14.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut2.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut3.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut4.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut5.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut6.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut7.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut8.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/astronaut9.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao0.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao1.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao10.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao2.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao3.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao4.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao5.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao6.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao7.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao8.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/hutao9.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/test_1_img.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/user_lv_img/test_2_img.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/benchmark/lv_demo_benchmark.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_list_border.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_logo.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/lv_demo_music.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/lv_demo_music_list.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/music/lv_demo_music_main.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/stress/lv_demo_stress.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/widgets/assets/img_clothes.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/widgets/assets/img_lvgl_logo.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/lvgl/demos/widgets/lv_demo_widgets.c" ],
-            "include_dirs": [ "./src", "../", "./lvgl_driver", "demos" ]
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/lvgl/liblvgl.a",
+            "sources": [ "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_disp.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_event.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_group.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_indev.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_indev_scroll.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj_class.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj_draw.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj_pos.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj_scroll.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj_style.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj_style_gen.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_obj_tree.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_refr.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/core/lv_theme.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/arm2d/lv_gpu_arm2d.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_arc.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_img.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_label.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_layer.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_line.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_mask.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_rect.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_transform.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_draw_triangle.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_img_buf.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_img_cache.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/lv_img_decoder.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/lv_gpu_nxp.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_arc.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_bg.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_composite.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_img.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_label.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_layer.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_line.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_mask.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_rect.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sdl/lv_draw_sdl_utils.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_arc.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_blend.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_dither.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_gradient.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_img.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_layer.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_letter.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_line.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_polygon.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_rect.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/sw/lv_draw_sw_transform.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/layouts/flex/lv_flex.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/layouts/grid/lv_grid.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/bmp/lv_bmp.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/freetype/lv_freetype.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/gif/gifdec.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/gif/lv_gif.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/png/lodepng.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/png/lv_png.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/qrcode/lv_qrcode.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/qrcode/qrcodegen.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/rlottie/lv_rlottie.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/sjpg/lv_sjpg.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/libs/sjpg/tjpgd.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/lv_extra.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/fragment/lv_fragment.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/fragment/lv_fragment_manager.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/gridnav/lv_gridnav.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/ime/lv_ime_pinyin.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/imgfont/lv_imgfont.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/monkey/lv_monkey.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/msg/lv_msg.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/others/snapshot/lv_snapshot.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/themes/basic/lv_theme_basic.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/themes/default/lv_theme_default.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/themes/mono/lv_theme_mono.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/animimg/lv_animimg.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/calendar/lv_calendar.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/chart/lv_chart.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/keyboard/lv_keyboard.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/led/lv_led.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/list/lv_list.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/menu/lv_menu.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/meter/lv_meter.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/msgbox/lv_msgbox.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/span/lv_span.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/spinbox/lv_spinbox.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/spinner/lv_spinner.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/tabview/lv_tabview.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/tileview/lv_tileview.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/extra/widgets/win/lv_win.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_fmt_txt.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_loader.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_10.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_12.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_12_subpx.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_14.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_16.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_18.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_20.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_22.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_24.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_26.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_28.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_28_compressed.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_30.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_32.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_34.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_36.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_38.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_40.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_42.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_44.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_46.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_48.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_montserrat_8.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_simsun_16_cjk.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_unscii_16.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/font/lv_font_unscii_8.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/hal/lv_hal_disp.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/hal/lv_hal_indev.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/hal/lv_hal_tick.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_anim.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_anim_timeline.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_area.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_async.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_bidi.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_color.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_fs.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_gc.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_ll.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_log.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_lru.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_math.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_mem.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_printf.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_style.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_style_gen.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_templ.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_timer.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_tlsf.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_txt.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_txt_ap.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/misc/lv_utils.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_arc.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_bar.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_btn.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_btnmatrix.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_canvas.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_checkbox.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_dropdown.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_img.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_label.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_line.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_objx_templ.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_roller.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_slider.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_switch.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_table.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/src/widgets/lv_textarea.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/lvgl_driver/lv_port_disp.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/lvgl_driver/lv_port_fs_template.c", "C:/Users/HMD/Desktop/esp32c3/components/lvgl/lvgl_driver/lv_port_indev.c" ],
+            "include_dirs": [ "./src", "../", "./lvgl_driver" ]
         },
         "lwip": {
             "alias": "idf::lwip",
@@ -789,7 +789,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/lwip/liblwip.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/lwip/liblwip.a",
             "sources": [ "F:/esp-idf/components/lwip/apps/sntp/sntp.c", "F:/esp-idf/components/lwip/lwip/src/api/api_lib.c", "F:/esp-idf/components/lwip/lwip/src/api/api_msg.c", "F:/esp-idf/components/lwip/lwip/src/api/err.c", "F:/esp-idf/components/lwip/lwip/src/api/if_api.c", "F:/esp-idf/components/lwip/lwip/src/api/netbuf.c", "F:/esp-idf/components/lwip/lwip/src/api/netdb.c", "F:/esp-idf/components/lwip/lwip/src/api/netifapi.c", "F:/esp-idf/components/lwip/lwip/src/api/sockets.c", "F:/esp-idf/components/lwip/lwip/src/api/tcpip.c", "F:/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "F:/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "F:/esp-idf/components/lwip/lwip/src/core/def.c", "F:/esp-idf/components/lwip/lwip/src/core/dns.c", "F:/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "F:/esp-idf/components/lwip/lwip/src/core/init.c", "F:/esp-idf/components/lwip/lwip/src/core/ip.c", "F:/esp-idf/components/lwip/lwip/src/core/mem.c", "F:/esp-idf/components/lwip/lwip/src/core/memp.c", "F:/esp-idf/components/lwip/lwip/src/core/netif.c", "F:/esp-idf/components/lwip/lwip/src/core/pbuf.c", "F:/esp-idf/components/lwip/lwip/src/core/raw.c", "F:/esp-idf/components/lwip/lwip/src/core/stats.c", "F:/esp-idf/components/lwip/lwip/src/core/sys.c", "F:/esp-idf/components/lwip/lwip/src/core/tcp.c", "F:/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "F:/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "F:/esp-idf/components/lwip/lwip/src/core/timeouts.c", "F:/esp-idf/components/lwip/lwip/src/core/udp.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "F:/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "F:/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "F:/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "F:/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "F:/esp-idf/components/lwip/lwip/src/netif/slipif.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "F:/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "F:/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "F:/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "F:/esp-idf/components/lwip/port/debug/lwip_debug.c", "F:/esp-idf/components/lwip/port/sockets_ext.c", "F:/esp-idf/components/lwip/port/freertos/sys_arch.c", "F:/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "F:/esp-idf/components/lwip/apps/ping/esp_ping.c", "F:/esp-idf/components/lwip/apps/ping/ping.c", "F:/esp-idf/components/lwip/apps/ping/ping_sock.c", "F:/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "include/apps/sntp", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch" ]
         },
@@ -797,15 +797,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/main",
+            "dir": "C:/Users/HMD/Desktop/esp32c3/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/main/main.c" ],
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/main/libmain.a",
+            "sources": [ "C:/Users/HMD/Desktop/esp32c3/main/main.c" ],
             "include_dirs": [ ".", "../components/ui" ]
         },
         "mbedtls": {
@@ -819,8 +819,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "F:/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/x509_crt_bundle.S" ],
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "F:/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "C:/Users/HMD/Desktop/esp32c3/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
         },
         "mqtt": {
@@ -834,7 +834,7 @@
             "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/mqtt/libmqtt.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/mqtt/libmqtt.a",
             "sources": [ "F:/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c", "F:/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_msg.c", "F:/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_outbox.c", "F:/esp-idf/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c" ],
             "include_dirs": [ "F:/esp-idf/components/mqtt/esp-mqtt/include" ]
         },
@@ -849,7 +849,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/newlib/libnewlib.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "F:/esp-idf/components/newlib/abort.c", "F:/esp-idf/components/newlib/assert.c", "F:/esp-idf/components/newlib/heap.c", "F:/esp-idf/components/newlib/locks.c", "F:/esp-idf/components/newlib/poll.c", "F:/esp-idf/components/newlib/pthread.c", "F:/esp-idf/components/newlib/random.c", "F:/esp-idf/components/newlib/reent_init.c", "F:/esp-idf/components/newlib/newlib_init.c", "F:/esp-idf/components/newlib/syscalls.c", "F:/esp-idf/components/newlib/termios.c", "F:/esp-idf/components/newlib/stdatomic.c", "F:/esp-idf/components/newlib/time.c", "F:/esp-idf/components/newlib/sysconf.c", "F:/esp-idf/components/newlib/realpath.c", "F:/esp-idf/components/newlib/port/esp_time_impl.c", "F:/esp-idf/components/newlib/port/riscv/port_stdatomic.S" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -864,7 +864,7 @@
             "priv_reqs": [ "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "F:/esp-idf/components/nvs_flash/src/nvs_api.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_page.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "F:/esp-idf/components/nvs_flash/src/nvs_types.cpp" ],
             "include_dirs": [ "include", "../spi_flash/include" ]
         },
@@ -909,7 +909,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/protobuf-c/libprotobuf-c.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/protobuf-c/libprotobuf-c.a",
             "sources": [ "F:/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c" ],
             "include_dirs": [ "protobuf-c" ]
         },
@@ -924,7 +924,7 @@
             "priv_reqs": [ "protobuf-c", "mbedtls", "console", "esp_http_server", "driver" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/protocomm/libprotocomm.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/protocomm/libprotocomm.a",
             "sources": [ "F:/esp-idf/components/protocomm/src/common/protocomm.c", "F:/esp-idf/components/protocomm/proto-c/constants.pb-c.c", "F:/esp-idf/components/protocomm/proto-c/sec0.pb-c.c", "F:/esp-idf/components/protocomm/proto-c/sec1.pb-c.c", "F:/esp-idf/components/protocomm/proto-c/sec2.pb-c.c", "F:/esp-idf/components/protocomm/proto-c/session.pb-c.c", "F:/esp-idf/components/protocomm/src/transports/protocomm_console.c", "F:/esp-idf/components/protocomm/src/transports/protocomm_httpd.c", "F:/esp-idf/components/protocomm/src/security/security0.c", "F:/esp-idf/components/protocomm/src/security/security1.c", "F:/esp-idf/components/protocomm/src/security/security2.c", "F:/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp.c", "F:/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp_mpi.c" ],
             "include_dirs": [ "include/common", "include/security", "include/transports" ]
         },
@@ -939,7 +939,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/pthread/libpthread.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/pthread/libpthread.a",
             "sources": [ "F:/esp-idf/components/pthread/pthread.c", "F:/esp-idf/components/pthread/pthread_cond_var.c", "F:/esp-idf/components/pthread/pthread_local_storage.c", "F:/esp-idf/components/pthread/pthread_rwlock.c", "F:/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -954,7 +954,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/riscv/libriscv.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/riscv/libriscv.a",
             "sources": [ "F:/esp-idf/components/riscv/instruction_decode.c", "F:/esp-idf/components/riscv/interrupt.c", "F:/esp-idf/components/riscv/vectors.S" ],
             "include_dirs": [ "include" ]
         },
@@ -969,7 +969,7 @@
             "priv_reqs": [ "soc", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/sdmmc/libsdmmc.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "F:/esp-idf/components/sdmmc/sdmmc_cmd.c", "F:/esp-idf/components/sdmmc/sdmmc_common.c", "F:/esp-idf/components/sdmmc/sdmmc_init.c", "F:/esp-idf/components/sdmmc/sdmmc_io.c", "F:/esp-idf/components/sdmmc/sdmmc_mmc.c", "F:/esp-idf/components/sdmmc/sdmmc_sd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -984,7 +984,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/soc/libsoc.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/soc/libsoc.a",
             "sources": [ "F:/esp-idf/components/soc/lldesc.c", "F:/esp-idf/components/soc/dport_access_common.c", "F:/esp-idf/components/soc/esp32c3/interrupts.c", "F:/esp-idf/components/soc/esp32c3/gpio_periph.c", "F:/esp-idf/components/soc/esp32c3/uart_periph.c", "F:/esp-idf/components/soc/esp32c3/adc_periph.c", "F:/esp-idf/components/soc/esp32c3/dedic_gpio_periph.c", "F:/esp-idf/components/soc/esp32c3/gdma_periph.c", "F:/esp-idf/components/soc/esp32c3/spi_periph.c", "F:/esp-idf/components/soc/esp32c3/ledc_periph.c", "F:/esp-idf/components/soc/esp32c3/rmt_periph.c", "F:/esp-idf/components/soc/esp32c3/sdm_periph.c", "F:/esp-idf/components/soc/esp32c3/i2s_periph.c", "F:/esp-idf/components/soc/esp32c3/i2c_periph.c", "F:/esp-idf/components/soc/esp32c3/temperature_sensor_periph.c", "F:/esp-idf/components/soc/esp32c3/timer_periph.c", "F:/esp-idf/components/soc/esp32c3/twai_periph.c" ],
             "include_dirs": [ "include", "esp32c3", "esp32c3/include" ]
         },
@@ -999,7 +999,7 @@
             "priv_reqs": [ "bootloader_support", "app_update", "soc", "driver", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "F:/esp-idf/components/spi_flash/flash_brownout_hook.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "F:/esp-idf/components/spi_flash/spi_flash_chip_th.c", "F:/esp-idf/components/spi_flash/memspi_host_driver.c", "F:/esp-idf/components/spi_flash/cache_utils.c", "F:/esp-idf/components/spi_flash/flash_mmap.c", "F:/esp-idf/components/spi_flash/flash_ops.c", "F:/esp-idf/components/spi_flash/spi_flash_wrap.c", "F:/esp-idf/components/spi_flash/esp_flash_api.c", "F:/esp-idf/components/spi_flash/esp_flash_spi_init.c", "F:/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "F:/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1014,7 +1014,7 @@
             "priv_reqs": [ "bootloader_support", "esptool_py", "vfs", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/spiffs/libspiffs.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/spiffs/libspiffs.a",
             "sources": [ "F:/esp-idf/components/spiffs/spiffs_api.c", "F:/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c", "F:/esp-idf/components/spiffs/spiffs/src/spiffs_check.c", "F:/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c", "F:/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c", "F:/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c", "F:/esp-idf/components/spiffs/esp_spiffs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1029,7 +1029,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/tcp_transport/libtcp_transport.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/tcp_transport/libtcp_transport.a",
             "sources": [ "F:/esp-idf/components/tcp_transport/transport.c", "F:/esp-idf/components/tcp_transport/transport_ssl.c", "F:/esp-idf/components/tcp_transport/transport_internal.c", "F:/esp-idf/components/tcp_transport/transport_socks_proxy.c", "F:/esp-idf/components/tcp_transport/transport_ws.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1037,15 +1037,15 @@
             "alias": "idf::ui",
             "target": "___idf_ui",
             "prefix": "idf",
-            "dir": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui",
+            "dir": "C:/Users/HMD/Desktop/esp32c3/components/ui",
             "type": "LIBRARY",
             "lib": "__idf_ui",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/ui/libui.a",
-            "sources": [ "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui/screens/ui_Screen1.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui/components/ui_comp_hook.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui/ui.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui/ui_events.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/ui/ui_helpers.c" ],
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/ui/libui.a",
+            "sources": [ "C:/Users/HMD/Desktop/esp32c3/components/ui/screens/ui_IR.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/screens/ui_light.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/screens/ui_main.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/screens/ui_seting.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/screens/ui_timeAndTianqi.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/components/ui_comp_hook.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/fonts/ui_font_rh16.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/fonts/ui_font_rh32.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/fonts/ui_font_rh64.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/images/ui_img_1809350367.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/images/ui_img_1849664379.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/images/ui_img_402971790.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/images/ui_img_614732645.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/images/ui_img_933897233.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/ui.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/ui_events.c", "C:/Users/HMD/Desktop/esp32c3/components/ui/ui_helpers.c" ],
             "include_dirs": [ "./" ]
         },
         "ulp": {
@@ -1074,7 +1074,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/unity/libunity.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/unity/libunity.a",
             "sources": [ "F:/esp-idf/components/unity/unity/src/unity.c", "F:/esp-idf/components/unity/unity_runner.c", "F:/esp-idf/components/unity/unity_utils_freertos.c", "F:/esp-idf/components/unity/unity_utils_cache.c", "F:/esp-idf/components/unity/unity_utils_memory.c", "F:/esp-idf/components/unity/unity_port_esp32.c", "F:/esp-idf/components/unity/port/esp/unity_utils_memory_esp.c" ],
             "include_dirs": [ "include", "unity/src" ]
         },
@@ -1097,30 +1097,30 @@
             "alias": "idf::user_dev",
             "target": "___idf_user_dev",
             "prefix": "idf",
-            "dir": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/user_dev",
+            "dir": "C:/Users/HMD/Desktop/esp32c3/components/user_dev",
             "type": "LIBRARY",
             "lib": "__idf_user_dev",
             "reqs": [ "driver" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/user_dev/libuser_dev.a",
-            "sources": [ "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/user_dev/SPI/User_dev_spi.c", "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/user_dev/TOUCH/touch_iic.c" ],
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/user_dev/libuser_dev.a",
+            "sources": [ "C:/Users/HMD/Desktop/esp32c3/components/user_dev/SPI/User_dev_spi.c", "C:/Users/HMD/Desktop/esp32c3/components/user_dev/TOUCH/touch_iic.c" ],
             "include_dirs": [ "./" ]
         },
         "user_mid": {
             "alias": "idf::user_mid",
             "target": "___idf_user_mid",
             "prefix": "idf",
-            "dir": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/user_mid",
+            "dir": "C:/Users/HMD/Desktop/esp32c3/components/user_mid",
             "type": "LIBRARY",
             "lib": "__idf_user_mid",
             "reqs": [],
             "priv_reqs": [ "user_dev" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/user_mid/libuser_mid.a",
-            "sources": [ "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/components/user_mid/lcd.c" ],
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/user_mid/libuser_mid.a",
+            "sources": [ "C:/Users/HMD/Desktop/esp32c3/components/user_mid/lcd.c" ],
             "include_dirs": [ ".", "../user_dev/SPI" ]
         },
         "vfs": {
@@ -1134,7 +1134,7 @@
             "priv_reqs": [ "driver", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/vfs/libvfs.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/vfs/libvfs.a",
             "sources": [ "F:/esp-idf/components/vfs/vfs.c", "F:/esp-idf/components/vfs/vfs_eventfd.c", "F:/esp-idf/components/vfs/vfs_uart.c", "F:/esp-idf/components/vfs/vfs_semihost.c", "F:/esp-idf/components/vfs/vfs_console.c", "F:/esp-idf/components/vfs/vfs_usb_serial_jtag.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1149,7 +1149,7 @@
             "priv_reqs": [ "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/wear_levelling/libwear_levelling.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/wear_levelling/libwear_levelling.a",
             "sources": [ "F:/esp-idf/components/wear_levelling/Partition.cpp", "F:/esp-idf/components/wear_levelling/SPI_Flash.cpp", "F:/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp", "F:/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp", "F:/esp-idf/components/wear_levelling/WL_Flash.cpp", "F:/esp-idf/components/wear_levelling/crc32.cpp", "F:/esp-idf/components/wear_levelling/wear_levelling.cpp" ],
             "include_dirs": [ "include" ]
         },
@@ -1164,7 +1164,7 @@
             "priv_reqs": [ "protobuf-c", "bt", "json", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/wifi_provisioning/libwifi_provisioning.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/wifi_provisioning/libwifi_provisioning.a",
             "sources": [ "F:/esp-idf/components/wifi_provisioning/src/wifi_config.c", "F:/esp-idf/components/wifi_provisioning/src/wifi_scan.c", "F:/esp-idf/components/wifi_provisioning/src/wifi_ctrl.c", "F:/esp-idf/components/wifi_provisioning/src/manager.c", "F:/esp-idf/components/wifi_provisioning/src/handlers.c", "F:/esp-idf/components/wifi_provisioning/src/scheme_console.c", "F:/esp-idf/components/wifi_provisioning/proto-c/wifi_config.pb-c.c", "F:/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.c", "F:/esp-idf/components/wifi_provisioning/proto-c/wifi_ctrl.pb-c.c", "F:/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.c", "F:/esp-idf/components/wifi_provisioning/src/scheme_softap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1179,7 +1179,7 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/HMD/Desktop/ESP32C3/esp32c3_st7789_cst816t_lvgl/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "C:/Users/HMD/Desktop/esp32c3/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "F:/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "F:/esp-idf/components/wpa_supplicant/port/eloop.c", "F:/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "F:/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "F:/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "F:/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "F:/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "F:/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "F:/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "F:/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "F:/esp-idf/components/wpa_supplicant/src/common/sae.c", "F:/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "F:/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "F:/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "F:/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "F:/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "F:/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "F:/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "F:/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "F:/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "F:/esp-idf/components/wpa_supplicant/src/utils/base64.c", "F:/esp-idf/components/wpa_supplicant/src/utils/common.c", "F:/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "F:/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "F:/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "F:/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "F:/esp-idf/components/wpa_supplicant/src/utils/json.c", "F:/esp-idf/components/wpa_supplicant/src/wps/wps.c", "F:/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "F:/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "F:/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "F:/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "F:/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "F:/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "F:/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "F:/esp-idf/components/wpa_supplicant/src/common/bss.c", "F:/esp-idf/components/wpa_supplicant/src/common/scan.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_scan.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "F:/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/aes-omac1.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "F:/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         }

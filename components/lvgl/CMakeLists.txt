@@ -1,20 +1,15 @@
 file(GLOB_RECURSE SOURCES src/*.c)
 file(GLOB_RECURSE LV_DEV_SOURCES lvgl_driver/*.c)
-file(GLOB_RECURSE LV_DEV_USER_LV_FONT user_lv_font/*.c)
-file(GLOB_RECURSE LV_DEV_USER_LV_IMG user_lv_img/*.c)
-file(GLOB_RECURSE DEMOS demos/*.c)
+
 
 
 idf_component_register(	SRCS ${SOURCES}
 						SRCS ${LV_DEV_SOURCES}
-						SRCS ${LV_DEV_USER_LV_FONT}
-						SRCS ${LV_DEV_USER_LV_IMG}
-						SRCS ${DEMOS}
-						INCLUDE_DIRS ./src ../ ./lvgl_driver  demos 
-                       	PRIV_REQUIRES driver ) 
+						INCLUDE_DIRS ./src ../ ./lvgl_driver
+                       	PRIV_REQUIRES driver )
 
 # idf_component_register(
-						
+
 # 						SRC_DIRS "src/core"
 # 						SRC_DIRS "src/draw"
 # 						SRC_DIRS "src/font"
